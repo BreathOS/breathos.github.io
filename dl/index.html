@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta property="og:title" content="Download Breath OS" />
     <meta property="og:description" content="For those, who prefer security and speed." />
-	<link rel="icon" type="image/png" href="../images/icon.png"/>
+    <link rel="icon" type="image/png" href="../images/icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="../assets/css/main.css">
     <noscript>
@@ -36,6 +36,27 @@
         <section id="main" class="wrapper">
             <div class="inner">
                 <h1 class="major fade-up">Download Breath OS</h1>
+                <h4>Minimal requirements:</h4>
+                <ol>
+                    <li>
+                        <p>Intel or AMD 64-bit processor</p>
+                    </li>
+                    <li>
+                        <p>2 GB RAM (system memory)</p>
+                    </li>
+                    <li>
+                        <p>15 of hard-drive space</p>
+                    </li>
+                    <li>
+                        <p>VGA capable of 1024x768 screen resolution</p>
+                    </li>
+                    <li>
+                        <p>Either a CD/DVD drive or a USB port for the installer media</p>
+                    </li>
+                    <li>
+                        <p>Internet access would be helpful</p>
+                    </li>
+                </ol>
                 <blockquote>
                     <h3>Warning!</h3>
                     Currently Breath OS is in state of Open Beta Testing so you'll probably tackle with
@@ -95,7 +116,8 @@
         }
 
         document.getElementById('agree').onchange = () => {
-            if (hasClass(document.getElementById('dl'), 'disabled'))
+            if (document.getElementById('agree').checked 
+            && hasClass(document.getElementById('dl'), 'disabled'))
                 removeClass(document.getElementById('dl'), 'disabled');
             else addClass(document.getElementById('dl'), 'disabled');
         }
