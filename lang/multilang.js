@@ -1,6 +1,6 @@
 var langfiles = ['az_AZ', 'en_US', 'ru_RU'];
 var langdirectory = 'lang/';
-var defaultlang = 'en-GB';
+var defaultlang = 'en-US';
 var asfEnable = true;
 var loadCustomjs = false;
 var langSelectId = 'selectLanguage';
