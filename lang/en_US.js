@@ -16,5 +16,6 @@ R.registerLocale("en-US", {
     "what-fourth-p": "Stop wasting the time on searching tools that you use regularly — install all required software in several clicks.",
     "index-about-us-title": "🤘 About project",
     "index-about-us-caption": `The Breath OS project was started in November 2018 as an operating system for educational enterprises.However, in 2020 the idea of the project was changed to a more global one: “an operating system that can adapt computer to different specialties or enterprises”. In February 2020 the project was awarded by the bronze medal in the Republic competition called “Sabahın Alimləri” (“The scientists of the future”). The most important part of this project – program called BStore was recognized as an uncial software and registered for copyright. After some significant improvements and updates a scientific article based on this project was written and published in the magazine of the Baku Higher Oil School in 2021. Furthermore, the work won 1st place at the II International Scientific Conferences of Students and Young Researchers. In the June of that year the project was nominated for "The Best IT Solution" at the competition of the student start-ups "Calling fire on us!" held in Tyumen city.`,
-    "index-about-us-button": "😎 More info about us"
+    "index-about-us-button": "📺 Watch a video presentation",
+    "index-about-us-button-2": "😎 More info about us"
 });
