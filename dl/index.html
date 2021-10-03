@@ -35,8 +35,10 @@
         <!-- Main -->
         <section id="main" class="wrapper">
             <div class="inner">
-                <h1 class="major fade-up">Download Breath OS</h1>
-                <h2>Minimal requirements:</h2>
+                <h1 class="major fade-up">
+                    <a class="icon brands fa-linux"></a> Download Breath OS
+                </h1>
+                <h2>🖥 Minimal requirements:</h2>
                 <br>
                 <ol style="line-height: 10%;">
                     <li>
@@ -59,7 +61,7 @@
                     </li>
                 </ol>
                 <blockquote>
-                    <h2>Warning!</h2>
+                    <h2>‼️ Warning</h2>
                     Currently Breath OS is in state of Open Beta Testing so you'll probably tackle with
                     bugs and
                     other insects. We cannot guaranty stable and properly work for now and apologize beforehand. If you
@@ -117,8 +119,8 @@
         }
 
         document.getElementById('agree').onchange = () => {
-            if (document.getElementById('agree').checked 
-            && hasClass(document.getElementById('dl'), 'disabled'))
+            if (document.getElementById('agree').checked
+                && hasClass(document.getElementById('dl'), 'disabled'))
                 removeClass(document.getElementById('dl'), 'disabled');
             else addClass(document.getElementById('dl'), 'disabled');
         }
