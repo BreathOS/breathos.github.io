@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Download Breath OS</title>
+    <meta charset="utf-8">
+    <meta property="og:title" content="Download Breath OS" />
+    <meta property="og:description" content="For those, who prefer security and speed." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <noscript>
+        <link rel="stylesheet" href="../assets/css/noscript.css" />
+    </noscript>
+</head>
+
+<body class="">
+
+    <!-- Header -->
+    <header id="header">
+        <a href="../index.html" class="title">Breath OS</a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="../faq/index.html">FAQ</a></li>
+                <li><a href="../us/index.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <section id="main" class="wrapper">
+            <div class="inner">
+                <h1 class="major fade-up">Download Breath OS</h1>
+                <blockquote>
+                    <h3>Warning!</h3>
+                    Currently Breath OS is in state of Open Beta Testing so you'll probably tackle with
+                    bugs and
+                    other insects. We cannot guaranty stable and properly work for now and apologize beforehand. If you
+                    have
+                    problems or just want to advice us new features feel free <a href="../us/index.html">for contact
+                        us</a>.
+                    <br>
+                    <b>MINE AT YOUR OWN RISK. WE ARE NOT RESPONSIBLE FOR ANY LOSS
+                        THAT WILL OCCUR WHILE USING BREATH OS</b>
+                </blockquote>
+                <input type="checkbox" id="agree">
+                <label for="agree">I agree with everything, GIVE ME BREATH OS 👀</label>
+                <a href="http://129.159.240.180/iso/breathos-21.08-amd64.iso" id="dl"
+                    class="button primary disabled scrolly icon brands fa-linux" disabled>Download</a>
+                <hr>
+                <center>
+                    <div class="col-12">
+                        <span class="image fit">
+                            <a href="../images/gpl-v3.png">
+                                <img src="../images/gpl-v3.png" alt="gpl-v3">
+                            </a>
+                        </span>
+                    </div>
+                    <p>License: <a href="https://www.gnu.org/licenses/gpl-3.0.txt" target="_blank">GPL-V3</a></p>
+                </center>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper style2-alt">
+        <div class="inner">
+            <ul class="menu">
+                <li>Build with <a class="icon fa-heart"></a> by <a>Azer Sadykhzadeh</a> | Design by <a
+                        href="https://aj.lkn.io/" target="_blank">AJ</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        let hasClass = (ele, cls) => {
+            return !!ele.className.match(new RegExp('(\\s|^)' + cls + '(\\s|$)'));
+        }
+
+        let addClass = (ele, cls) => {
+            if (!hasClass(ele, cls)) ele.className += " " + cls;
+        }
+
+        let removeClass = (ele, cls) => {
+            if (hasClass(ele, cls)) {
+                var reg = new RegExp('(\\s|^)' + cls + '(\\s|$)');
+                ele.className = ele.className.replace(reg, ' ');
+            }
+        }
+
+        document.getElementById('agree').onchange = () => {
+            if (hasClass(document.getElementById('dl'), 'disabled'))
+                removeClass(document.getElementById('dl'), 'disabled');
+            else addClass(document.getElementById('dl'), 'disabled');
+        }
+    </script>
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/jquery.scrolly.min.js"></script>
+    <script src="../assets/js/browser.min.js"></script>
+    <script src="../assets/js/breakpoints.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>

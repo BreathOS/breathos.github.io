@@ -1,0 +1,20 @@
+R.registerLocale("az-AZ", {
+    "index-sidebar-hello": "👋 Salam",
+    "index-sidebar-why": "👀 Niyə Breath OS?",
+    "index-sidebar-about-us": "🤘 Layihə haqqında",
+    "index-hi-caption": "Sürət və təhlükəsizliyə üstünlük verənlər üçün.",
+    "index-hi-download": "Yüklə (Beta)",
+    "index-hi-button-1": "👀 Niyə Breath OS?",
+    "index-faq-button": "❔ FAQ",
+    "what-first-h2": "Öz işinin peşəkarları üçün mükəmməl həll.",
+    "what-first-p": "Breath OS — yüngül əməliyyat sistemidir, buna görə PC-nin resursları yalnız işinizə sərf olunur. Yalnız işinizdə.",
+    "what-second-h2": "Minimalizm və güc birlikdə.",
+    "what-second-p": "Biz gözəllik üçün hesablama güclərinin istifadəsi barədə stereotiplərinizi məhv edirik — XFCE əməliyyat sisteminə performans və estetik görünüş arasında mükəmməl balansa yaxınlaşmağa kömək edir.",
+    "what-third-h2": "Hamısını dəyişdirmək üçün güc.",
+    "what-third-p": "Linux gücü və açıq mənbə koduna görə özünüzə əmin olun. Linux və Ubuntu 20.04 əsaslanan həllimiz sabitliyinə və geniş dəstəyinə zəmanət verir.",
+    "what-fourth-h2": "BStore",
+    "what-fourth-p": "Müntəzəm istifadə etdiyiniz alətlər üçün axtarış zamanı sərf etməyi dayandırın — lazım olan hər şeyi bir neçə kliklə qurun.",
+    "index-about-us-title": "🤘 Layihə haqqında",
+    "index-about-us-caption": `Breath OS layihəsi 2019-cu ilin noyabr ayında təhsil müəssisələri üçün əməliyyat sistemi kimi başlamışdır. Lakin 2020-ci ildə layihənin əsas ideyası genişləndirilib: "kompüteri müəyyən bir sahədə və ya müəssisədə işləmək üçün uyğunlaşdıra bilən əməliyyat sistemi". 2020-ci ilin fevralında layihə "Sabahın Alimləri" respublika yarışında bürünc medala layiq görülüb. Layihənin əsas hissəsi — BStore proqramı unikal bir proqram kimi qəbul edilmiş və müəllif hüquqları əldə edilmişdir. Bir sıra əhəmiyyətli təkmilləşdirmələrdən və yeniləşmələrdən sonra bu layihə əsasında 2021-ci ildə Bakı Ali Neft Məktəbinin jurnalında dərc edilmiş elmi məqalə yazılmışdır. Bundan başqa, iş tələbə və gənc tədqiqatçıların 1-ci Beynəlxalq elmi konfranslarında birinci yerə layiq görülmüşdür. Həmin ilin iyununda layihə universitet startaplarının döyüşündə təqdim olunub "Calling fire on us!" Tümen şəhərində keçirilən "the Best IT Solution" ("ən yaxşı IT-həll") nominasiyasında qalib gəlmişdir.`,
+    "index-about-us-button": "😎 Haqqımızda daha çox"
+});
